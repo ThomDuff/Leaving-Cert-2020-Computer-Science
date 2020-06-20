@@ -1,4 +1,4 @@
-# Leaving-Cert-2020-Computer-Science
+# Leaving-Cert-2020-Computer-Science-Project
 Project for leaving certificate computer science course
 
 Uses existing data to educate people about the impact of climate change to show people how rising Co2 emmissions causes the oceans 
