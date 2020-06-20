@@ -1,0 +1,109 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-color:	#355664;
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-family: Galileo;
+  color: white;
+  font-weight: 900;
+  border-bottom: 1px solid orange
+  
+}
+
+@font-face {
+  font-family: 'Galileo';
+  src: url(Fonts/galileoflf-bold.ttf);
+  font-style: normal;  
+}
+
+
+#carlist {
+  position: absolute;
+  top: 190px;
+  left: 31px;
+}
+
+#box0 {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  background-color: lightblue;
+  width: 400px;
+  border: 1px solid orange;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 20px;
+}
+
+#box1 {
+  position: absolute;
+  top: 150px;
+  left: 600px;
+  background-color: lightblue;
+  width: 400px;
+  border: 1px solid orange;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 20px;
+}
+
+#box2 {
+  position: absolute;
+  top: 150px;
+  left: 1200px;
+  background-color: lightblue;
+  width: 400px;
+  border: 1px solid orange;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 20px;
+}
+
+
+#comment {
+  position: absolute;
+  font-family: Galileo;
+  color: white;
+  font-weight: 900;
+  border-bottom: 1px solid orange;
+  top: 700px;
+  left:30px;
+}
+
+#border {
+  position: absolute;
+  top: 760px;
+  left:30px;
+}
+
+.tab {
+  width: 11%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  cursor: pointer;
+  padding: 14px 20px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}

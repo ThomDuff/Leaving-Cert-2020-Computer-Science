@@ -1,0 +1,117 @@
+h1 {
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+#img1 {
+  position: absolute;
+  left: 1250px;
+  top: 370px;
+  height: 300px;
+  width: 400px
+  
+}
+
+#img2 {
+  position: absolute;
+  left: 1200px;
+  top: 720px;
+  height: 300px;
+  width: 250px
+}
+
+#sep1 {
+  position: static;
+  left: 50px;
+  top: 1135px;
+  height: 200px;
+  width: 500px
+}
+
+#sep2 {
+  position: static;
+  left: 600px;
+  top: 1135px;
+  height: 300px;
+  width: 700px
+}
+
+#sep3 {
+  position: static;
+  left: 50px;
+  top: 1450px;
+  height: 300px;
+  width: 500px
+}
+
+#sep4 {
+  position: static;
+  left: 600px;
+  top: 1450px;
+  height: 150px;
+  width: 350px
+}
+
+.iter {
+  font-weight: 900;
+}
+
+
+#web1 {
+  position: static;
+  left: 600px;
+  top: 1450px;
+  height: 300px;
+  width: 500px
+}
+
+#web2 {
+  position: static;
+  left: 600px;
+  top: 1700px;
+  height: 300px;
+  width: 500px
+}
+
+#web3 {
+  position: static;
+  left: 600px;
+  top: 2100px;
+  height: 300px;
+  width: 500px
+}
+
+#web4 {
+  position: static;
+  left: 600px;
+  top: 2100px;
+  height: 600px;
+  width: 1000px
+}
+
+#web5 {
+  position: static;
+  left: 600px;
+  top: 2100px;
+  height: 600px;
+  width: 1000px
+}
+
+#web6 {
+  position: static;
+  left: 600px;
+  top: 2100px;
+  height: 400px;
+  width: 600px
+}
+
+#web7 {
+  position: static;
+  left: 600px;
+  top: 2100px;
+  height: 400px;
+  width: 600px;
+}

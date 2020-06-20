@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="C:\Users\cdm\Desktop\2020CSCA126276\Artefact\CSS\Graph_CSS.css" />
+    <title>Impact of CO2 emmsion</title>
+  </head>
+
+  <body>
+    <h1>Impact of rising Co2 emmission on Ocean Acidification</h1>
+    <div class="tab">
+	<button class="tablinks" onclick="open(event)"><a href="C:\Users\cdm\Desktop\2020CSCA126276\Artefact\HTML\Home_Page.html">Home</a></button>
+	<button class="tablinks" onclick="open(event)"><a href="C:\Users\cdm\Desktop\2020CSCA126276\Artefact\HTML\Graph_Page.html">Graph</a></button>
+    </div>
+    
+    <p id="select">Select what graph you want to see below</p>
+
+ <img id="image" src="Images\Co2_plot.png" />
+    <select id="CarList">
+      <option value="Images\Co2_plot.png">co2</option>
+      <option value="Images\Ph_plot.png">ph</option>
+      <option value="Images\Both_Plot.png">Compare Both</option>
+    </select> 
+
+    <p>Sources for data :
+    <a href="https://datahub.io/anuveyatsu/co2-ppm#resource-co2-annmean-mlo">Co2</a>
+    <br>
+    <a href="https://www.eea.europa.eu/data-and-maps/daviz/yearly-mean-surface-sea-water#tab-chart_3" style="margin-left: 8.5em" >Ph</a>
+    </p>
+    
+    <h2 id="comment">Comments</h2>
+    <div id = "border">
+      <input id="nameIn" />
+      <button onclick="AddComment()">Add comment</button>
+      <table id="myStudentTable" bgcolor="#ffbf00">
+      </table>
+    </div>
+
+        <div id= "sq1">
+      <h1>Co2 Graph</h1>
+      <p class = "BoxText">
+        <br>
+        Co2 in "parts per million" is displayed on the graph, it rises steadily due to industrial pollution
+        <br>
+      </p>
+    </div>
+    
+    
+    <div id= "sq2">
+      <h1>Ph Graph</h1>
+      <p class = "BoxText">
+        The ph scale is displayed on the "ph" graph, it drops steadily becoming more acidic.See scale below
+        <img src="Images\Ph_scale.png" height="100px" width="720px">
+        <br>
+      </p>
+    </div>
+    
+  </body>
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase.js"></script>
+<script src="C:\Users\cdm\Desktop\2020CSCA126276\Artefact\Javascript\Graph_Javascript.js"></script>

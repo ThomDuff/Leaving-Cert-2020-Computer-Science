@@ -1,0 +1,266 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="C:\Users\cdm\Desktop\2020CSCA126276\Report\Subsidiary_Files\Index_CSS.css" />
+  </head>
+  <body>
+    <h1 align="center">Report</h1>
+
+  <h1>1. A rationale for the approach to the brief</h1>
+    <h2>1.1 Research</h2>
+    <ul>
+      <li>
+        Research was first conducted by looking at
+        <a href="https://www.globalgoals.org/13-climate-action"
+          >Global Goal thirteen website</a
+        >
+        as mentioned in the brief, of the listed targets the most important was
+        being able to "build knowledge and capacity to meet climate change"
+      </li>
+      <br />
+      <li>
+        Before any data could be used research was done to find the<a
+          href="https://climate.nasa.gov/causes/"
+        >
+          causes of climate change </a
+        >, using NASA a trutstable source
+      </li>
+      <br />
+      <li>
+        Once causes were identified the effects were researched using the
+        <a
+          href="https://www.nationalgeographic.com/environment/global-warming/global-warming-effects/"
+          >sources provided</a
+        >
+        and a more helpful wikipedia list of
+        <a
+          href="https://en.wikipedia.org/wiki/Physical_impacts_of_climate_change#Acidification"
+          >physical impacts</a
+        >
+        to get an overview to choose from
+      </li>
+      <br />
+      <li>
+        An other website that fulfils a similar function is the European
+        Enviroment Agencies
+        <a href="https://www.eea.europa.eu/data-and-maps/daviz"
+          >data visualisations</a
+        >
+        which shows graphs, something we are tasked to do
+      </li>
+    </ul>
+
+    <h2>1.2 Response to the Brief</h2>
+    <ul>
+      <li>In order to cement an idea I first identified my target audience, this being junior cert students as educating the youth is important and they will also be learning the 
+      similar stuff ("Co2", "Ph" and the climate cycle) in school, killing two birds with one stone</li>
+      <br>
+      <li>
+        In order to choose a data set to visualise I picked the most direct and
+        therefore easy to understand, this being the impact of rising Co2 levels
+        and ocean acidification.
+      </li>
+      <br />
+      <li>
+        The <a href="https://www.researchgate.net/figure/Time-series-of-atmospheric-CO-2-at-Mauna-Loa-ppmv-and-surface-ocean-pH-and-pCO-2-matm_fig1_253285582"> Mauna Loa ocean acidifcation</a> graph
+        is what inspired me to use the
+        relationship between Co2 and Ocean Ph as there was a direct scientific
+        link
+      </li>
+      <br>
+      <li>
+        The target audience being junior cert students I decided to base my
+        website off the science textbook they use <a href="https://allbooks.ie/custom/public/images/essential-science.jpg">"Essential Science"</a>, using the
+        same turquoise colour scheme.
+      </li>
+      <br />
+      <li>
+        In only showing graphs of Co2 and Ph with respect to time the relation
+        would be simple for users to identify on their own
+      </li>
+      <br />
+      <li>
+        To get the point across I hoped two lines of data would be shown on one
+        graph helping users compare, therefore "matplotlib" was the python
+        module to use in this project
+      </li>
+      <br />
+      <li>
+        Finally to make the website interactive a comment section was needed,
+        allowing users to spread their interpretation and make use of a
+        relational database, using firebase
+      </li> 
+
+      <h1>3.Design and development of the artifact</h1>
+      <h2>3.1 Iterative design process for Website</h2>
+      
+      <li><p class="iter">Investigate</p>The most important part of this project was getting the website to meet my desired standard, containing graphs, information and a commment section while follwoing the as
+      metioned design aesthetic</li>
+      <br>
+      <li><p class="iter">Plan</p>The biggest problem was ensuring each part of the website worked and that it would match the target aesthetic</li>
+      <br>
+      <li><p class="iter">Design</p>To overcome design challenges each part of the website was built seperate from each other with no overlap</li>
+      <img src="Subsidiary_Files\Images\CSV_data.png" id="sep1" border="1">
+      <img src="Subsidiary_Files\Images\plot.png" id="sep2" border="1">
+      <img src="Subsidiary_Files\Images\database.jpg" id="sep3" border="1">
+      <img src="Subsidiary_Files\Images\comments.jpg" id="sep4" border="1">
+      <br>
+      <br>
+      <li><p class="iter">Create</p>Since all parts worked the website only needing to be assembled, making the process easier</li>
+      
+      <img src="Subsidiary_Files\Images\it1.png" id="web1" border="1">
+      <img src="Subsidiary_Files\Images\it2.png" id="web2" border="1">
+      <img src="Subsidiary_Files\Images\it3.png" id="web3" border="1">
+
+      <br>
+      <li><p class="iter">Evaluate</p>Seeing the core website I went back and made changes to make the website look better, by
+      <br>
+      <br>
+      <li> adding colour</li>
+      <br>
+      <img src="Subsidiary_Files\Images\web1.png" id="web4" border="1">
+      <br>
+      <br>
+      <li>Creating another page for the graph</li>
+      <br>
+      <br>
+      <img src="Subsidiary_Files\Images\web2.png" id="web5" border="1">
+      <br>
+      <br>
+      <li>Adding more information for both pages</li>
+      <br>
+      <br>
+      <img src="Subsidiary_Files\Images\web3.png" id="web6" border="1">
+      <img src="Subsidiary_Files\Images\web4.png" id="web7" border="1">
+      </li>
+      <br>
+    <li>Once these changes were made the website was complete</li>
+      <br>
+      
+      <h2>3.2 Computational Thinking for python</h2>
+    <p>In this project the artifact with the most computational thinking was the python graphs, mainly the graph with 2 lines. 
+    
+    It involved reading a csv file, cleaning the data in the csv, copying the data from said csv file to lists and finally plotting the lists on an axis </p>
+
+    <img src="Subsidiary_Files\Images\Algorithm_Flowchart.png" >
+
+
+    <h2>3.3 Development of the Artefact</h2>
+
+    <h2>User Interface Design</h2>
+    <p class="iter">Consistency</p>
+    <p>The website using the "Essential Science" textbook colour scheme of torquise, white and orange keeps it consistent not only on the website but also for the junior cycle stduents using
+    the book as both media are similar in look.<br/>
+    Nearly all text for information is put in the lightblue text boxes 
+    The comment section is static on both pages for this consistency and the input box is small so comments aren't to big<br/>
+    All information is short, using visual aids to get the point across quickly
+    </p>
+    
+    
+    <p class="iter">Clear and succinct display of output</p>
+    <p>An advantage of the "Essential Science" book is the dark  background allows for the bright content to pop, <br/>
+    All light blue textboxes are postioned in order, on the "Home" page diagonally across as if reading from left to right and on the "Graph" from top to bottom <br/>
+    The lightblue text boxes contrast the dark background to stand out, making it eye catching and the reading easier with black text</p>
+    
+    <p class="iter">Sufficient degree of control for the user in their interaction with any software or hardware</p>
+    <p>There is no hardware in this project <br/>
+      By only having 2 pages (all I felt needed) the end user has access to eveything quickly with tabs saving time reading useless information <br/>
+      The dropdown box to view which graph allows them to interpret and see the climate change for themselve when they want, having access to three graphs <br/>
+      The comment box gives the end user freedom to comment what they want, while the box itself is short the commentscan be as long as they want <br/>
+    </p>
+    
+    <h2>File Structure</h2>
+    <p>I hope this diagram below is suitable in describing the hierarchy of files/programmes</p>
+    <img src="Subsidiary_Files\Images\Structure_Flowchart.png">
+    
+    <h2>Data Gathering and Validation</h2>
+    <p class="iter">CSV data</p>
+    <p>Data was gathered by me donwloading it from the above soucres as CSV files
+    Both the Ph and Co2 CSV data files are stored locally to be gathered by python, the problem with the data in the files is that they are unorderd and stored as strings <br/>
+    Python accesses the files and sifts through the data, leaving out what is unncesacy and validating what is needed by turning the strings into integers and float character types <br/>
+    Once the data is validtaed it is stored/appended to lists to be graphed</p>
+    
+    <p class="iter">Firebase data for comment box</p>
+    <p>Data for the comment box was stored and received from firebase using javascript <br/>
+    Data is gathered by the user typing data into the input box <br/>
+    This data is stored in firebase using the push method in javascript, stroing the data in a child directory under the root directory<br/>
+    This data is then pulled from firebase using javascript, which pulls it as a javascript value using the .value method in order to validate the data</p> 
+    
+    <h2>Testing</h2>
+    <p>Throughout this project mainly the javascript and python aspects were tested, while all programs (python cleaning data, graphing and javscript firebase ) are operatioanl and debugged
+      to the best ability there may still be underlying bugs that have not been an issue so far.<br/> 
+      However most bugs and issues in python and javascript were tested by seeing if each section of the code worked individually rahter than as a whole </p>
+    
+    <p class="iter">Python Testing</p>
+    <p>For example the CSV file cleaning in python was tested in isolation, I wanted to test if all values appended to the y axis list were stored sepratly and integers, as seen
+    the test involved iterating through each integer in the list, comparing it to zero and if grater print "True".This test both proves the list values are integers as
+    they are comparable to zero and that each value is stored speratly with no overlap as "True" appears more than once</p>
+    <img src="Subsidiary_Files\Images\Python_Test.png" height="500px" width="750px" border="1">
+  
+
+    <p class="iter">Javascript Testing</p>
+    <p>Like python javascript was tested in sections, a problem I faced was knowing if my code worked but more importanly to what point did it work.<br/>
+    In order to see if all of my other javascript worked a simple test of showing an alert would prove the rest of the code worked to the point I incerted the alert.
+    As seen below the alert tested all my previous code, it was working </p>
+    <img src="Subsidiary_Files\Images\JS_test.png" border="1">
+    
+
+  
+  <h1>4. Evaluation of the artefact</h1>
+  <h2>4.1 Reflection on meeting the brief</h2>
+    
+    <p>Personally I am delighted with the project as I fullfilled all my design ambitions, these being creating a 2 panel line chart, matching the essential science textbook colour shceme 
+    and having a comment box which pushes to and pulls from firebase</p>
+    
+        <p class="iter">1. The chosen dataset must be prepared, cleaned and stored in a suitable file system or database</p>
+    <p>The dataset was prepared by saving it as a csv file to be read by python,I clenaed the Co2 data file by deleting uneeded years but I worte my python algorithm to clean the data
+      and finally the dataset was stored in a local folder ready to be accessed by python and users</p>
+    
+    <p class="iter">2. A program should analyse and interpret the data from the file system</p>
+    <p>My program written in python analyses the dataset by reading it, skipping the header and iterating through each row.
+      It interprets each the first and second appending each to a list, converting the second row of each file to a float along the way</p>
+    
+    <p class="iter">3. There should be appropriate graphs or visualisations displayed for the end user.</p>
+    <p>The program uses the stored lists with both the matplotlib and pylab modules to create graphs and store graphs as images.  The two graphs are compared to make comparing them easier
+    for the end user in a design sense</p>
+    
+    <p class="iter">4. The end user should be able to interact with the program.</p>
+    <p>Since the python prgrams graph is saved as an image and displayed on a website interaction is impposible, even if pythonsent the data directly to the website the end user would not be 
+    able </p>
+    
+    <p class="iter">5. An interactive website that displays the graphs or visualisations</p>
+    <p>The website is interactive as users can select which graph they want to see using the dropdown box to interact, users can select and view all three graphs and not just the comparison graph
+      so they can get a good understanding of the individual graphs</p>
+    <p>The comment box is also an interacitve feature. Writing comments allows users to spread their interpretations of the graph and ideas being a usefel interactive feature</p>
+    
+    <p class="iter">6. The website should display data that is stored and retrieved from a database</p>
+    <p>The comment box stores and retrives data from firebase an online relational database, 
+      showing end users the commnets they and others made which offers more for the website than just graphs</p>
+    
+    <p class="iter">7. The interactive website demonstrates principles of good user-centred design</p>
+    <p>As mentioned above the website follows the good user interface desing pricniples of consistency, clear and succinct display of output, and a sufficient 
+      degree of control for the user in their interaction</p>
+    <br>
+    <p class="iter">Unexpected Results</p>
+    <p>For the end user or junior cycle students using it they get what I wanted them to get, the website fits the book they use, the information the website matches and
+      expands upon what they learn in school and fincally they can interact with the website, viewing graphs and commenting to spread their ideas.<br/>
+      <br>
+      An unexpected result was python saving the python graphs as images to show on the website, orignally I was going to have python send the CSV data to firebase until I realised
+      saving the graphs as images saved development time.<br/>
+      To make up for the lack of a relational database the comment section was implemented, to store and retreive data from a database.</p>
+        </ul>
+      <h2>4.2 Future development of the artefact</h2>
+    <ul>
+      <li>Given more time and help I would to like I originally wanted and send the CSV file data through python to firebase and hence display the graph using javascipt, pulling the data
+      from firebase</li>
+      <br>
+      <li>In the future this artefact would include leaving cycle student as it end user, adding more information/graphs to cover topics they cover in school. Specifically in biolgoy
+      and chemistry</li>
+      <br>
+      <li>The artfecact could always be improved given more time, being able to delete comments would be a good improvement</li>
+      <br>
+      <li>Finally this website can be used to teach students how to interpret data and graphs, this application for the website educates like the website does now but can be expanded
+      upon in future iterations</li>
+  </ul> 
+
+  </body>
+</html>
